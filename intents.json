@@ -15,7 +15,8 @@
       "responses": [
         "Hello!",
         "Good to see you again!",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "what's up?"
       ],
       "context_set": ""
     },
