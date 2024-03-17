@@ -1,5 +1,5 @@
 from flask import Flask, request, make_response
-from ..ModelTraining.chat_init import chatbot_response 
+from chat_init import chatbot_response
 
 app = Flask(__name__)
 
