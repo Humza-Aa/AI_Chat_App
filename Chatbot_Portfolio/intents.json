@@ -31,13 +31,14 @@
         "What can you do?",
         "Introduce yourself",
         "What's your role?",
-        "Can you give me some information about yourself?"
+        "Can you give me some information about yourself?",
+        "What is your name?"
       ],
       "responses": [
-        "I'm a virtual assistant modeled after [Your Name], a skilled software developer based in Toronto, ON. I'm here to assist you with any questions or tasks you have related to programming, development tools, or anything else you need help with.",
-        "I'm your virtual assistant, designed to emulate the skills and knowledge of [Your Name], a software developer based in Toronto, ON. How can I assist you today?",
-        "I'm [Your Name]'s virtual counterpart, ready to help you with programming queries, technical issues, or anything else you need. How can I assist you today?",
-        "I'm an AI chatbot representing [Your Name], a software developer from Toronto, ON. How can I assist you today?",
+        "I'm a virtual assistant modeled after Humza Aamir, a skilled software developer based in Toronto, ON. I'm here to assist you with any questions or tasks you have related to programming, development tools, or anything else you need help with.",
+        "I'm your virtual assistant, designed to emulate the skills and knowledge of Humza Aamir, a software developer based in Toronto, ON. How can I assist you today?",
+        "I'm Humza Aamir's virtual counterpart, ready to help you with programming queries, technical issues, or anything else you need. How can I assist you today?",
+        "I'm an AI chatbot representing Humza Aamir, a software developer from Toronto, ON. How can I assist you today?",
         "I'm here to assist you with anything you need! Just ask away."
       ]
     },
@@ -103,20 +104,137 @@
       ]
     },
     {
-      "tag": "THANKS",
+      "tag": "GOODBYE",
       "patterns": [
-        "Thank you",
-        "Thanks a lot",
-        "Thanks for your help",
-        "Appreciate it",
-        "Thank you so much",
-        "Thanks for assisting me"
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Take care",
+        "Farewell",
+        "Until next time"
       ],
       "responses": [
-        "You're welcome! Feel free to ask if you need any further assistance.",
-        "Anytime! Let me know if there's anything else I can help you with.",
-        "Glad I could assist you! Don't hesitate to reach out if you have more questions.",
-        "No problem at all! If you need anything else, just let me know."
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Don't hesitate to return if you need assistance!",
+        "Take care! Until next time!",
+        "Farewell! Feel free to reach out if you have more questions!",
+        "Until next time! Have a wonderful day!"
+      ]
+    },
+    {
+      "tag": "PROJECT_LINKS",
+      "patterns": [
+        "Can you provide links to your projects?",
+        "Where can I find your projects?",
+        "I'm interested in your projects, can I get more information?",
+        "Do you have a portfolio of your projects?",
+        "How can I access your project repositories?"
+      ],
+      "responses": [
+        "Sure! You can find more information about my projects on my GitHub profile: https://github.com/Humza-Aa",
+        "You can explore my projects on GitHub: https://github.com/Humza-Aa",
+        "Certainly! You'll find details about my projects on my GitHub profile: https://github.com/Humza-Aa"
+      ]
+    },
+    {
+      "tag": "CRIMEVUELINK",
+      "patterns": [
+        "What is the link to Crimevue?",
+        "Where can I find CrimeVue?",
+        "Do you have a link to CrimeVue?",
+        "CrimeVue link please",
+        "I'd like to visit CrimeVue, where can I find it?"
+      ],
+      "responses": [
+        "Sure! You can access CrimeVue at the following link: [CrimeVue](https://crimevue.vercel.app/)",
+        "Here's the link to CrimeVue: [CrimeVue](https://crimevue.vercel.app/)",
+        "CrimeVue is available at this link: [CrimeVue](https://crimevue.vercel.app/)",
+        "You can find CrimeVue here: [CrimeVue](https://crimevue.vercel.app/)",
+        "CrimeVue's link is: [CrimeVue](https://crimevue.vercel.app/)"
+      ]
+    },
+    {
+      "tag": "FACTCHECKINGLINK",
+      "patterns": [
+        "What is the link to the Fact Checking Platform?",
+        "Where can I find the Fact Checking Platform?",
+        "Do you have a link to the Fact Checking Platform?",
+        "Fact Checking Platform link please",
+        "I'd like to visit the Fact Checking Platform, where can I find it?"
+      ],
+      "responses": [
+        "Sure! You can access the Fact Checking Platform at the following link: [Fact Checking Platform](https://mustaffaimran.github.io/)",
+        "Here's the link to the Fact Checking Platform: [Fact Checking Platform](https://mustaffaimran.github.io/)",
+        "The Fact Checking Platform is available at this link: [Fact Checking Platform](https://mustaffaimran.github.io/)",
+        "You can find the Fact Checking Platform here: [Fact Checking Platform](https://mustaffaimran.github.io/)",
+        "The Fact Checking Platform's link is: [Fact Checking Platform](https://mustaffaimran.github.io/)"
+      ]
+    },
+    {
+      "tag": "CRIMEVUE_DETAILS",
+      "patterns": [
+        "What did you do on CrimeVue?",
+        "Tell me about your work on CrimeVue",
+        "What were your contributions to CrimeVue?",
+        "Can you describe your role on CrimeVue?"
+      ],
+      "responses": [
+        "On CrimeVue, I designed and developed a web application using Python, JavaScript, Next.js, Node.js, Express.js, and MongoDB. The project is available on GitHub.",
+        "For CrimeVue, I used Python and JavaScript to design and develop the web application. I also utilized Next.js, Node.js, Express.js, and MongoDB for various functionalities. The project is hosted on GitHub.",
+        "My role on CrimeVue involved designing and developing a web application with Python, JavaScript, Next.js, Node.js, Express.js, and MongoDB. The project is available on GitHub.",
+        "CrimeVue involved designing and developing a web application for real-time crime analysis using Python and JavaScript. The project is hosted on GitHub.",
+        "I contributed to CrimeVue by designing and developing a web application using Python and JavaScript. I also utilized Next.js, Node.js, Express.js, and MongoDB for various functionalities. The project is on GitHub."
+      ]
+    },
+    {
+      "tag": "FACTCHECKING_DETAILS",
+      "patterns": [
+        "What did you do on Fact Checking Platform?",
+        "Tell me about your work on Fact Checking Platform",
+        "What were your contributions to Fact Checking Platform?",
+        "Can you describe your role on Fact Checking Platform?"
+      ],
+      "responses": [
+        "On Fact Checking Platform, I developed a user-centric fact-checking website in React and JavaScript. The project is available on GitHub.",
+        "For Fact Checking Platform, I developed a user-centric fact-checking website in React and JavaScript. The project is hosted on GitHub.",
+        "My role on Fact Checking Platform involved developing a user-centric fact-checking website in React and JavaScript. The project is available on GitHub.",
+        "Fact Checking Platform involved developing a user-centric fact-checking website in React and JavaScript. The project is hosted on GitHub.",
+        "I contributed to Fact Checking Platform by developing a user-centric fact-checking website in React and JavaScript. The project is on GitHub."
+      ]
+    },
+    {
+      "tag": "CONTACT_INFO",
+      "patterns": [
+        "How can I contact you?",
+        "What's your contact information?",
+        "Can I contact you?",
+        "I need to reach you",
+        "Contact details please"
+      ],
+      "responses": [
+        "You can contact me via email at humzaaamir31@gmail.com.",
+        "Feel free to reach out to me via email at humzaaamir31@gmail.com.",
+        "You can get in touch with me via email at humzaaamir31@gmail.com.",
+        "My email address is humzaaamir31@gmail.com.",
+        "You can find me on GitHub: [GitHub](https://github.com/Humza-Aa) and LinkedIn: [LinkedIn](https://www.linkedin.com/in/humzaaamir31/)"
+      ]
+    },
+    {
+      "tag": "ABOUT_HUMZA",
+      "patterns": [
+        "Who is Humza?",
+        "Tell me about Humza",
+        "What can you tell me about Humza?",
+        "Introduce Humza",
+        "Who is Humza Aamir?",
+        "Can you give me information about Humza?"
+      ],
+      "responses": [
+        "Humza Aamir is a skilled software developer based in Toronto, ON. He has expertise in various programming languages and frameworks, including Python, JavaScript, React, Node.js, and more. Humza is passionate about crafting immersive digital experiences and has contributed to projects like CrimeVue and Fact Checking Platform. He holds a Bachelor of Engineering with Honours in Computer Engineering from York University.",
+        "Humza Aamir is a talented software developer from Toronto, ON. With a strong foundation in computer engineering, he specializes in developing web applications using modern technologies. Humza has worked on projects like CrimeVue and Fact Checking Platform, demonstrating his proficiency in Python, JavaScript, React, Node.js, and more. He is dedicated to creating innovative solutions and enhancing user experiences.",
+        "Humza Aamir is an accomplished software developer known for his expertise in designing and developing web applications. Based in Toronto, ON, Humza has a Bachelor of Engineering with Honours in Computer Engineering from York University. He is skilled in languages such as Python and JavaScript, and he has contributed to projects like CrimeVue and Fact Checking Platform, showcasing his ability to create impactful digital solutions.",
+        "Humza Aamir, a software developer based in Toronto, ON, is known for his exceptional skills in building web applications. He is proficient in languages like Python and JavaScript and has experience working with frameworks such as React and Node.js. Humza has played a key role in projects like CrimeVue and Fact Checking Platform, demonstrating his commitment to delivering high-quality software solutions."
       ]
     }
   ]
