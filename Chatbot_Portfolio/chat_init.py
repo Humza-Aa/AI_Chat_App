@@ -1,10 +1,12 @@
+from nltk.stem import WordNetLemmatizer
 import random
 import json
 from keras.models import load_model
 import numpy as np
 import pickle
 import nltk
-from nltk.stem import WordNetLemmatizer
+nltk.download('punkt')
+nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
 
 model = load_model('chatbot_model.h5')
@@ -58,5 +60,3 @@ def chatbot_response(msg):
     ints = predict_class(msg, model)
     res = getResponse(ints, intents)
     return res
-
-
