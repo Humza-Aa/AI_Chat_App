@@ -52,9 +52,9 @@
         "What development tools are you familiar with?"
       ],
       "responses": [
-        "I'm proficient in several programming languages, including Python, Java, JavaScript, HTML, CSS, Sass, TypeScript, C/C++, and Verilog. I also have experience with various frameworks such as React, Node.js, Redux, Material-UI, Angular, Spring Boot, Express.js, Next.js, Vue.js, and Bootstrap. Additionally, I'm familiar with several development tools like Git, GitHub, Bash, MongoDB, Linux, Firebase, Figma, JUnit, Postman, Webpack, and Jest, along with DevOps tools like AWS, Kubernetes, Docker, and Vercel.",
-        "My technical skills include a wide range of programming languages such as Python, Java, JavaScript, HTML, CSS, and more. I'm also experienced in frameworks like React, Node.js, and Angular, as well as development tools like Git, GitHub, and MongoDB.",
-        "I have a strong foundation in programming languages such as Python, Java, JavaScript, and frameworks like React, Node.js, and Angular. Additionally, I'm familiar with various development tools and DevOps technologies like Git, AWS, Docker, and Kubernetes."
+        "Humza has a versatile skill set in programming languages, including Python, Java, JavaScript, HTML, CSS, Sass, TypeScript, C/C++, and Verilog. He also demonstrates expertise in various frameworks such as React, Node.js, Redux, Material-UI, Angular, Spring Boot, Express.js, Next.js, Vue.js, and Bootstrap. Additionally, he is proficient with development tools like Git, GitHub, Bash, MongoDB, Linux, Firebase, Figma, JUnit, Postman, Webpack, and Jest, along with DevOps tools like AWS, Kubernetes, Docker, and Vercel.",
+        "When it comes to technical skills, Humza is well-versed in a wide range of programming languages, including Python, Java, JavaScript, HTML, CSS, and more. He also possesses deep knowledge in frameworks like React, Node.js, and Angular, as well as development tools like Git, GitHub, and MongoDB.",
+        "Humza's technical skills encompass a strong foundation in programming languages such as Python, Java, JavaScript, and frameworks like React, Node.js, and Angular. Additionally, he is familiar with various development tools and DevOps technologies like Git, AWS, Docker, and Kubernetes."
       ]
     },
     {
@@ -68,9 +68,9 @@
         "What roles have you held in the past?"
       ],
       "responses": [
-        "I've worked as a software developer at Cascadia Carbon, Project Human City, and Excel Lassonde. At Cascadia Carbon, I revamped a React web app to Next.js, deployed it to Firebase, and enhanced user experience resulting in increased engagement. At Project Human City, I collaborated with teams to improve product responsiveness and accessibility, developed new React components, and refactored a secure Node.js backend. At Excel Lassonde, I optimized performance, revamped UI designs, integrated authentication systems, and transformed backend systems.",
-        "My professional experience includes roles at Cascadia Carbon, Project Human City, and Excel Lassonde, where I've contributed to various projects aimed at enhancing user experience, improving product responsiveness, and optimizing performance.",
-        "I've had the opportunity to work with some great teams at Cascadia Carbon, Project Human City, and Excel Lassonde. My roles involved developing and implementing solutions to improve user experience, optimize performance, and enhance overall product quality."
+        "Humza has worked as a software developer at Cascadia Carbon, Project Human City, and Excel Lassonde. At Cascadia Carbon, he revamped a React web app to Next.js, deployed it to Firebase, and enhanced user experience resulting in increased engagement. At Project Human City, he collaborated with teams to improve product responsiveness and accessibility, developed new React components, and refactored a secure Node.js backend. At Excel Lassonde, he optimized performance, revamped UI designs, integrated authentication systems, and transformed backend systems.",
+        "His professional journey includes roles at Cascadia Carbon, Project Human City, and Excel Lassonde, where he's contributed to various projects aimed at enhancing user experience, improving product responsiveness, and optimizing performance.",
+        "Humza has had the opportunity to work with some great teams at Cascadia Carbon, Project Human City, and Excel Lassonde. His roles involved developing and implementing solutions to improve user experience, optimize performance, and enhance overall product quality."
       ]
     },
     {
@@ -83,9 +83,9 @@
         "What are some examples of your project work?"
       ],
       "responses": [
-        "I've worked on several projects including CrimeVue and Fact Checking Platform. CrimeVue is a web application for real-time crime analysis developed using Python, JavaScript, Next.js, Node.js, Express.js, and MongoDB. Fact Checking Platform is a user-centric fact-checking website built in React that reduces misinformation consumption by providing accurate information.",
-        "Some of my projects include CrimeVue, a real-time crime analysis web app, and Fact Checking Platform, a user-centric fact-checking website. These projects demonstrate my skills in full-stack development, database management, and user interface design.",
-        "I've had the opportunity to work on a variety of projects, from web applications like CrimeVue to fact-checking platforms like Fact Checking Platform. These projects have allowed me to apply my technical skills and contribute to meaningful solutions."
+        "Humza has worked on several projects including CrimeVue and Fact Checking Platform. CrimeVue is a web application for real-time crime analysis developed using Python, JavaScript, Next.js, Node.js, Express.js, and MongoDB. Fact Checking Platform is a user-centric fact-checking website built in React that reduces misinformation consumption by providing accurate information.",
+        "Some of Humza's projects include CrimeVue, a real-time crime analysis web app, and Fact Checking Platform, a user-centric fact-checking website. These projects demonstrate his skills in full-stack development, database management, and user interface design.",
+        "Humza has had the opportunity to work on a variety of projects, from web applications like CrimeVue to fact-checking platforms like Fact Checking Platform. These projects have allowed him to apply his technical skills and contribute to meaningful solutions."
       ]
     },
     {
@@ -97,9 +97,9 @@
         "Can you share details about your academic background?"
       ],
       "responses": [
-        "I completed my Bachelor of Engineering with Honours in Computer Engineering at York University. I took relevant courses such as Data Structures and Algorithms, Software Design, Algorithms Analysis, Database Management, Intro to AI, Systems Programming, Computer Architecture, and Object-Oriented Programming.",
-        "My academic background includes a Bachelor of Engineering with Honours in Computer Engineering from York University. During my studies, I focused on courses related to software development, algorithms, database management, and computer architecture.",
-        "I pursued my Bachelor of Engineering with Honours in Computer Engineering at York University, where I gained a strong foundation in computer science principles, programming languages, and software development methodologies."
+        "Humza completed his Bachelor of Engineering with Honours in Computer Engineering at York University. He took relevant courses such as Data Structures and Algorithms, Software Design, Algorithms Analysis, Database Management, Intro to AI, Systems Programming, Computer Architecture, and Object-Oriented Programming.",
+        "Humza's academic background includes a Bachelor of Engineering with Honours in Computer Engineering from York University. During his studies, he focused on courses related to software development, algorithms, database management, and computer architecture.",
+        "Humza pursued his Bachelor of Engineering with Honours in Computer Engineering at York University, where he gained a strong foundation in computer science principles, programming languages, and software development methodologies."
       ]
     },
     {
@@ -176,14 +176,18 @@
         "What did you do on CrimeVue?",
         "Tell me about your work on CrimeVue",
         "What were your contributions to CrimeVue?",
-        "Can you describe your role on CrimeVue?"
+        "Can you describe your role on CrimeVue?",
+        "What is CrimeVue?",
+        "Tell me about CrimeVue",
+        "Can you describe CrimeVue?",
+        "What does CrimeVue do?"
       ],
       "responses": [
-        "On CrimeVue, I designed and developed a web application using Python, JavaScript, Next.js, Node.js, Express.js, and MongoDB. The project is available on GitHub.",
-        "For CrimeVue, I used Python and JavaScript to design and develop the web application. I also utilized Next.js, Node.js, Express.js, and MongoDB for various functionalities. The project is hosted on GitHub.",
-        "My role on CrimeVue involved designing and developing a web application with Python, JavaScript, Next.js, Node.js, Express.js, and MongoDB. The project is available on GitHub.",
+        "On CrimeVue, Humza designed and developed a web application using Python, JavaScript, Next.js, Node.js, Express.js, and MongoDB. The project is available on GitHub.",
+        "For CrimeVue, Humza used Python and JavaScript to design and develop the web application. He also utilized Next.js, Node.js, Express.js, and MongoDB for various functionalities. The project is hosted on GitHub.",
+        "Humza's role on CrimeVue involved designing and developing a web application with Python, JavaScript, Next.js, Node.js, Express.js, and MongoDB. The project is available on GitHub.",
         "CrimeVue involved designing and developing a web application for real-time crime analysis using Python and JavaScript. The project is hosted on GitHub.",
-        "I contributed to CrimeVue by designing and developing a web application using Python and JavaScript. I also utilized Next.js, Node.js, Express.js, and MongoDB for various functionalities. The project is on GitHub."
+        "Humza contributed to CrimeVue by designing and developing a web application using Python and JavaScript. He also utilized Next.js, Node.js, Express.js, and MongoDB for various functionalities. The project is on GitHub."
       ]
     },
     {
@@ -192,14 +196,18 @@
         "What did you do on Fact Checking Platform?",
         "Tell me about your work on Fact Checking Platform",
         "What were your contributions to Fact Checking Platform?",
-        "Can you describe your role on Fact Checking Platform?"
+        "Can you describe your role on Fact Checking Platform?",
+        "What is Fact Checking Platform?",
+        "Tell me about Fact Checking Platform",
+        "Can you describe Fact Checking Platform?",
+        "What does Fact Checking Platform do?"
       ],
       "responses": [
-        "On Fact Checking Platform, I developed a user-centric fact-checking website in React and JavaScript. The project is available on GitHub.",
-        "For Fact Checking Platform, I developed a user-centric fact-checking website in React and JavaScript. The project is hosted on GitHub.",
-        "My role on Fact Checking Platform involved developing a user-centric fact-checking website in React and JavaScript. The project is available on GitHub.",
+        "On Fact Checking Platform, Humza developed a user-centric fact-checking website in React and JavaScript. The project is available on GitHub.",
+        "For Fact Checking Platform, Humza developed a user-centric fact-checking website in React and JavaScript. The project is hosted on GitHub.",
+        "Humza's role on Fact Checking Platform involved developing a user-centric fact-checking website in React and JavaScript. The project is available on GitHub.",
         "Fact Checking Platform involved developing a user-centric fact-checking website in React and JavaScript. The project is hosted on GitHub.",
-        "I contributed to Fact Checking Platform by developing a user-centric fact-checking website in React and JavaScript. The project is on GitHub."
+        "Humza contributed to Fact Checking Platform by developing a user-centric fact-checking website in React and JavaScript. The project is on GitHub."
       ]
     },
     {
