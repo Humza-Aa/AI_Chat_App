@@ -7,7 +7,7 @@ Welcome to the AI Chat App! This project is part of my portfolio and showcases m
 The AI Chat App is an API that provides access to a custom-built conversational AI model. This AI is trained specifically to answer questions about me and my projects. Whether you're curious about my technical skills, past experiences, or projects I've worked on, this AI can provide informative responses.
 
 
-![AI Chat App Demo](![AI Chat App Demo](https://github.com/yourusername/yourrepository/raw/main/path/to/your/gif.gif))
+![AI Chat App Demo](https://private-user-images.githubusercontent.com/93687590/314690051-d359aa76-ae02-41a2-a9ae-00774ecedd45.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5NzIwNjQsIm5iZiI6MTcxMDk3MTc2NCwicGF0aCI6Ii85MzY4NzU5MC8zMTQ2OTAwNTEtZDM1OWFhNzYtYWUwMi00MWEyLWE5YWUtMDA3NzRlY2VkZDQ1LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIwVDIxNTYwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ5ODExNzE3MWUyMDFiMWUyZGNmNWYxMDg0ZjViNGZkYzU4Njc2MjAyOTVlMjhkYWQ2N2NkODNjNzIxMjUxMTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.1kV3BmzmTkEUU-fb8Ktucb11NZJIT8-mMwyu9RyrXSs)
 
 ## Features
 
