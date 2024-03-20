@@ -1,3 +1,5 @@
+# Creds: jerrytigerxu
+
 import random
 from keras.optimizers import SGD
 from keras.layers import Dense, Activation, Dropout
