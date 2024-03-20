@@ -6,6 +6,9 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/')
+def home():
+    return "Hello!"
 
 @app.route('/chat', methods=['POST'])
 def chat():
@@ -17,5 +20,5 @@ def chat():
     return response
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
