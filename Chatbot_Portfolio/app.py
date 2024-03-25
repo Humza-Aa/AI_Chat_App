@@ -12,10 +12,12 @@ def home():
 
 @app.route('/chat', methods=['POST'])
 def chat():
-    print(request)
     message = request.form['message']
     res = chatbot_response(message)
     response = make_response(res)
+    print(request)
+    print(message)
+    print(res)
     response.headers['Content-Type'] = 'text/plain'
     return response
 
