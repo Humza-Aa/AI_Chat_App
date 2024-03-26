@@ -33,7 +33,7 @@ def chat():
         'response': res
     }
     collection.insert_one(request_response)
-
+    collection.delete_many({'request' : "bot"})
     response.headers['Content-Type'] = 'text/plain'
     return response
 
