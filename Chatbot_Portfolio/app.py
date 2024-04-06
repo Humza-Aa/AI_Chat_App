@@ -4,6 +4,7 @@ from flask import Flask
 from flask_cors import CORS
 from pymongo import MongoClient
 from dotenv import load_dotenv
+from datetime import datetime
 import os
 
 load_dotenv()
@@ -37,7 +38,8 @@ def chat():
 
         request_response = {
             'request': message,
-            'response': res
+            'response': res,
+            'Time': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         }
         collection.insert_one(request_response)
         collection.delete_many({'request': "bot"})
