@@ -12,3 +12,4 @@ tensorflow==2.16.1
 tensorflow-io-gcs-filesystem==0.31.0
 pymongo==4.6.2
 python-dotenv==1.0.1
+requests==2.31.0
