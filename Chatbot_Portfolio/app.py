@@ -24,6 +24,12 @@ def home():
     return "Hello!"
 
 
+@app.route('/loc', methods=['Post'])
+def location():
+    IP = request.form['IP']
+    api_url = f'http://ip-api.com/json/{IP}'
+
+
 @app.route('/chat', methods=['POST'])
 def chat():
     message = request.form['message']
