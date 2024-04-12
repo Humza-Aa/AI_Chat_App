@@ -36,8 +36,11 @@ def get_user_ip():
 
 @app.route('/loc', methods=['Post'])
 def location():
+    SiteCollection.update_one(
+        {}, {'$inc': {'Site Opened': 1}}, upsert=True)
+    count = SiteCollection.find_one({}, {'Site Opened': 1})
     user_ip = get_user_ip()
-    api_url = f'http://ip-api.com/json/user_ip'
+    api_url = f'http://ip-api.com/json/{user_ip}'
     response = requests.get(api_url)
     if response.status_code != 200:
         return 'Error: Failed to call API', 500
@@ -58,23 +61,17 @@ def location():
 @app.route('/chat', methods=['POST'])
 def chat():
     message = request.form['message']
-    if message == "Site Opened":
-        SiteCollection.update_one(
-            {}, {'$inc': {'Site Opened': 1}}, upsert=True)
-        count = SiteCollection.find_one({}, {'Site Opened': 1})
-        response = {'Site Opened': count['Site Opened']}
-    else:
-        res = chatbot_response(message)
-        response = make_response(res)
+    res = chatbot_response(message)
+    response = make_response(res)
 
-        request_response = {
-            'request': message,
-            'response': res,
-            'Time': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        }
-        collection.insert_one(request_response)
-        collection.delete_many({'request': "bot"})
-        response.headers['Content-Type'] = 'text/plain'
+    request_response = {
+        'request': message,
+        'response': res,
+        'Time': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    }
+    collection.insert_one(request_response)
+    collection.delete_many({'request': "bot"})
+    response.headers['Content-Type'] = 'text/plain'
     return response
 # if __name__ == '__main__':
 #     app.run(debug=True)
