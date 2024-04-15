@@ -35,12 +35,9 @@ def iptest():
 
 
 def get_user_ip():
-    if request.headers.getlist("X-Forwarded-For"):
-        user_ip = request.headers.get(
-            'X-Forwarded-For', request.headers.get('True-Client-Ip', request.remote_addr))
-    else:
-        user_ip = request.remote_addr
-    return user_ip
+    client_ip = request.headers.get(
+        'X-Forwarded-For', request.headers.get('True-Client-Ip', request.remote_addr))
+    return client_ip
 
 
 @app.route('/loc', methods=['Post'])
