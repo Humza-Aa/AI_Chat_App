@@ -25,6 +25,11 @@ CORS(app)
 def home():
     return "Hello!"
 
+@app.route('/test', methods=['Post'])
+def iptest():
+    print(request.__dict__)  # Print out the entire request object
+    client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
+    return f"Your IP address is: {client_ip}"
 
 def get_user_ip():
     if request.headers.getlist("X-Forwarded-For"):
