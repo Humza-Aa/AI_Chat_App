@@ -29,7 +29,7 @@ def home():
 def iptest():
     print(request.__dict__)  # Print out the entire request object
     client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
-    return f"Your IP address is: {client_ip}"
+    return request.__dict__
 
 def get_user_ip():
     if request.headers.getlist("X-Forwarded-For"):
