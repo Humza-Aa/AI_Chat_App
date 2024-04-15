@@ -29,13 +29,14 @@ def home():
 @app.route('/test', methods=['Post'])
 def iptest():
     client_ip = request.headers.get(
-    'X-Forwarded-For', request.headers.get('True-Client-Ip', request.remote_addr))
+        'X-Forwarded-For', request.headers.get('True-Client-Ip', request.remote_addr))
     return f"Your IP address is: {client_ip}"
 
 
 def get_user_ip():
     if request.headers.getlist("X-Forwarded-For"):
-        user_ip = request.headers.getlist("X-Forwarded-For")[0]
+        user_ip = request.headers.get(
+            'X-Forwarded-For', request.headers.get('True-Client-Ip', request.remote_addr))
     else:
         user_ip = request.remote_addr
     return user_ip
