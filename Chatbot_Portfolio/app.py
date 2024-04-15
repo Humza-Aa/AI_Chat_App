@@ -28,6 +28,7 @@ def home():
 
 @app.route('/test', methods=['Post'])
 def iptest():
+    print(request.__dict__)
     client_ip = request.headers.get(
         'X-Forwarded-For', request.headers.get('True-Client-Ip', request.remote_addr))
     return f"Your IP address is: {client_ip}"
