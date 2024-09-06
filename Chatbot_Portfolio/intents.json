@@ -29,6 +29,45 @@
       ]
     },
     {
+      "tag": "BAD_LANGUAGE",
+      "patterns": [
+        "What the hell?",
+        "This is stupid",
+        "You're useless",
+        "Damn",
+        "Shut up",
+        "What a joke",
+        "F*** off",
+        "S***",
+        "B****"
+      ],
+      "responses": [
+        "Let's keep our conversation respectful. How can I assist you?",
+        "I’m here to help! Please ask your question politely.",
+        "I'm here to assist with your queries. Could you please rephrase?",
+        "Let's focus on the task at hand. How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "IRRELEVANT_QUESTIONS",
+      "patterns": [
+        "What's your favorite color?",
+        "Tell me a joke",
+        "What's the meaning of life?",
+        "How old are you?",
+        "What do you look like?",
+        "Are you human?",
+        "Can you date me?",
+        "I want a blowjob"
+      ],
+      "responses": [
+        "I'm here to assist with questions related to my portfolio and experience. How can I help with that?",
+        "I'm focused on helping you learn more about my projects and skills. Let's keep our conversation on track!",
+        "That’s an interesting question! However, I’m better suited to help you with questions about my professional experience and projects.",
+        "I’m here to answer questions related to my work and projects. How can I assist you in that area?"
+      ]
+    },
+    {
       "tag": "ABOUT_ME",
       "patterns": [
         "Who are you?",
@@ -265,44 +304,6 @@
         "Humza provides services such as developing custom software solutions, optimizing web applications, and offering consulting on best practices in development. He specializes in creating user-centric applications and enhancing overall user experience.",
         "Humza offers expertise in software development, including building and maintaining web applications, providing technical advice, and assisting with project planning and execution. His areas of expertise cover a broad range of programming languages and technologies.",
         "Humza specializes in creating and enhancing web applications, developing robust backend systems, and providing guidance on best practices in software development. He is available to help with any aspect of programming or project development."
-      ]
-    },
-    {
-      "tag": "BAD_LANGUAGE",
-      "patterns": [
-        "What the hell?",
-        "This is stupid",
-        "You're useless",
-        "Damn",
-        "Shut up",
-        "What a joke",
-        "F*** off",
-        "S***",
-        "B****"
-      ],
-      "responses": [
-        "Let's keep our conversation respectful. How can I assist you?",
-        "I’m here to help! Please ask your question politely.",
-        "I'm here to assist with your queries. Could you please rephrase?",
-        "Let's focus on the task at hand. How can I assist you today?"
-      ]
-    },
-    {
-      "tag": "IRRELEVANT_QUESTIONS",
-      "patterns": [
-        "What's your favorite color?",
-        "Tell me a joke",
-        "What's the meaning of life?",
-        "How old are you?",
-        "What do you look like?",
-        "Are you human?",
-        "Can you date me?"
-      ],
-      "responses": [
-        "I'm here to assist with questions related to my portfolio and experience. How can I help with that?",
-        "I'm focused on helping you learn more about my projects and skills. Let's keep our conversation on track!",
-        "That’s an interesting question! However, I’m better suited to help you with questions about my professional experience and projects.",
-        "I’m here to answer questions related to my work and projects. How can I assist you in that area?"
       ]
     },
     {
