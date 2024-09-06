@@ -1,9 +1,9 @@
 # Creds: jerrytigerxu
 
 import random
-from keras.optimizers import SGD
-from keras.layers import Dense, Activation, Dropout
-from keras.models import Sequential
+from keras._tf_keras.keras.optimizers import SGD
+from keras._tf_keras.keras.layers import Dense, Activation, Dropout
+from keras._tf_keras.keras.models import Sequential
 import numpy as np
 import pickle
 import json

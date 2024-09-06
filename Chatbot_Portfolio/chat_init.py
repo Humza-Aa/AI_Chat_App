@@ -1,7 +1,7 @@
 from nltk.stem import WordNetLemmatizer
 import random
 import json
-from keras.models import load_model
+from keras._tf_keras.keras.models import load_model
 import numpy as np
 import pickle
 import nltk

@@ -15,6 +15,11 @@
         "Hi there"
       ],
       "responses": [
+        "Hi there! How can I assist you today? Feel free to ask about my projects, skills, or experience.",
+        "Hello! How can I help you? Ask me anything about my professional journey.",
+        "Hey! What can I do for you today? Looking for details on my work or projects?",
+        "Hi! Nice to see you. What would you like to know about my experience or skills?",
+        "Hello there! What brings you here today? I'm ready to answer your questions.",
         "Hi there! How can I assist you today?",
         "Hello! How can I help you?",
         "Hey! What can I do for you?",
@@ -242,6 +247,72 @@
         "Oh, Humza Aamir? Yeah, he's that talented software developer from Toronto, ON. He's all about using the latest tech to build amazing web apps. Python, JavaScript, React, Node.js - you name it, he's mastered it. And oh boy, he's worked on some pretty neat projects like CrimeVue and Fact Checking Platform. Did I mention he's got a Bachelor's in Computer Engineering from York University?",
         "Humza Aamir? He's one heck of a software developer based in Toronto, ON. He's got this knack for crafting top-notch web apps using all sorts of fancy languages like Python and JavaScript. Oh, and he's worked on some pretty awesome projects like CrimeVue and Fact Checking Platform. And get this - he's got a Bachelor's degree in Computer Engineering from York University!",
         "Oh, you wanna know about Humza Aamir? He's that guy in Toronto, ON who's killing it as a software developer. He's got mad skills with Python, JavaScript, React, and all that jazz. You know, he's the brains behind projects like CrimeVue and Fact Checking Platform. And oh yeah, he's got a Bachelor's in Computer Engineering from York University."
+      ]
+    },
+    {
+      "tag": "SERVICES",
+      "patterns": [
+        "What services do you offer?",
+        "Can you tell me about your services?",
+        "What can you help me with?",
+        "Do you offer any services?",
+        "What are your areas of expertise?",
+        "What kind of work do you do?",
+        "What do you specialize in?"
+      ],
+      "responses": [
+        "Humza offers a range of services in software development, including full-stack development, web application development, and consultation on programming tools and frameworks. His expertise spans various languages and technologies such as Python, JavaScript, React, and more.",
+        "Humza provides services such as developing custom software solutions, optimizing web applications, and offering consulting on best practices in development. He specializes in creating user-centric applications and enhancing overall user experience.",
+        "Humza offers expertise in software development, including building and maintaining web applications, providing technical advice, and assisting with project planning and execution. His areas of expertise cover a broad range of programming languages and technologies.",
+        "Humza specializes in creating and enhancing web applications, developing robust backend systems, and providing guidance on best practices in software development. He is available to help with any aspect of programming or project development."
+      ]
+    },
+    {
+      "tag": "BAD_LANGUAGE",
+      "patterns": [
+        "What the hell?",
+        "This is stupid",
+        "You're useless",
+        "Damn",
+        "Shut up",
+        "What a joke",
+        "F*** off",
+        "S***",
+        "B****"
+      ],
+      "responses": [
+        "Let's keep our conversation respectful. How can I assist you?",
+        "I’m here to help! Please ask your question politely.",
+        "I'm here to assist with your queries. Could you please rephrase?",
+        "Let's focus on the task at hand. How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "IRRELEVANT_QUESTIONS",
+      "patterns": [
+        "What's your favorite color?",
+        "Tell me a joke",
+        "What's the meaning of life?",
+        "How old are you?",
+        "What do you look like?",
+        "Are you human?",
+        "Can you date me?"
+      ],
+      "responses": [
+        "I'm here to assist with questions related to my portfolio and experience. How can I help with that?",
+        "I'm focused on helping you learn more about my projects and skills. Let's keep our conversation on track!",
+        "That’s an interesting question! However, I’m better suited to help you with questions about my professional experience and projects.",
+        "I’m here to answer questions related to my work and projects. How can I assist you in that area?"
+      ]
+    },
+    {
+      "tag": "FALLBACK",
+      "patterns": [],
+      "responses": [
+        "I’m not sure I understand that. Could you rephrase?",
+        "That’s outside my knowledge base. Please ask about my projects, skills, or experience.",
+        "I'm here to help with questions related to my work and portfolio. Could you ask something specific?",
+        "Hmm, I didn't catch that. Could you ask about my projects or experience?"
       ]
     }
   ]
